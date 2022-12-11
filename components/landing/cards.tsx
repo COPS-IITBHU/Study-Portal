@@ -1,6 +1,5 @@
 import Image from "next/image";
 export default function Cards({props}) {
-  console.log(props);
 
     return (
       
