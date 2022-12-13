@@ -35,8 +35,8 @@ const Footer = () => {
 	return (
 		<div className='w-full font-poppins'>
 			<div>
-				<div className='text-center pt-6 pb-6 bg-berry'>
-					<div className='text-blush xs:text-base md:text-lg'>
+				<div className='bg-berry pt-6 pb-6 text-center'>
+					<div className='xs:text-base text-blush md:text-lg'>
 						Study Portal is made with{' '}
 						<span role='img' aria-label='pizza' area-hidden='false'>
 							☕
@@ -54,10 +54,10 @@ const Footer = () => {
 			</div>
 
 			<footer className='bg-berry'>
-				<div className='xs:mx-2 lg:mx-16 pb-4 text-blush'>
+				<div className='xs:mx-2 pb-4 text-blush lg:mx-16'>
 					<div className='grid grid-cols-12 gap-4'>
-						<div className='col-span-12 md:col-span-12 lg:col-span-4 text-center md:order-3 lg:order-1'>
-							<div className='text-center lg:text-left m-4 lg:m-2 px-12'>
+						<div className='col-span-12 text-center md:order-3 md:col-span-12 lg:order-1 lg:col-span-4'>
+							<div className='m-4 px-12 text-center lg:m-2 lg:text-left'>
 								<div className='my-2 text-blush'>
 									<Link href='/contributors' passHref>
 										<span role='img' aria-label='laptop' area-hidden='false'>
@@ -81,7 +81,7 @@ const Footer = () => {
 							</div>
 						</div>
 
-						<div className='col-span-12 md:col-span-6 lg:col-span-4 text-center lg:text-right lg:m-2 px-12'>
+						<div className='col-span-12 px-12 text-center md:col-span-6 lg:col-span-4 lg:m-2 lg:text-right'>
 							<div className='mb-4 lg:mb-0'>
 								<b>Quick Links</b>
 
@@ -103,10 +103,10 @@ const Footer = () => {
 							</div>
 						</div>
 
-						<div className='text-center col-span-12 md:col-span-6 lg:col-span-4 xs:text-lg md:text-xl'>
+						<div className='xs:text-lg col-span-12 text-center md:col-span-6 md:text-xl lg:col-span-4'>
 							<b>Follow Us</b>
 
-							<div className='mt-2 grid grid-cols-4 grid-gap-2'>
+							<div className='grid-gap-2 mt-2 grid grid-cols-4'>
 								{ICONS.map((icon) => (
 									<Link
 										key={icon.name}
@@ -117,7 +117,7 @@ const Footer = () => {
 										<svg
 											viewBox='0 0 16 16'
 											width='4rem'
-											className='text-center p-2'
+											className='p-2 text-center'
 										>
 											<path fill={icon.fill_color} d={icon.path_d} />
 										</svg>
