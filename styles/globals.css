@@ -1,5 +1,22 @@
 @tailwind base;
 
+@layer base {
+  @font-face {
+    font-family: 'Montserrat';
+    src:local('Montserrat'), url('~/public/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src:local('Poppins'), url('~/public/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+  }
+}
+
 html,
 body {
   padding: 0;
