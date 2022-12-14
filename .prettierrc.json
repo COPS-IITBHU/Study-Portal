@@ -7,5 +7,6 @@
 	"singleQuote": true,
 	"useTabs": true,
 	"tabWidth": 2,
-	"arrowParens": "always"
+	"arrowParens": "always",
+	"plugins": ["prettier-plugin-tailwindcss"]
 }
