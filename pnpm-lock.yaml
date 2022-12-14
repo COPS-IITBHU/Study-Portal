@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@reacticons/ionicons': ^6.0.4
   '@types/node': ^18.11.12
   '@types/react': 18.0.26
   autoprefixer: ^10.4.13
@@ -19,6 +20,7 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
+  '@reacticons/ionicons': 6.0.4
   next: 13.0.6_iburw4xngv4nuxezlam7kbvdc4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -251,6 +253,10 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.4.1
     dev: true
+
+  /@reacticons/ionicons/6.0.4:
+    resolution: {integrity: sha512-FN4/D6a/kS2dEMwVltAGCKiYArDESGW1fgsV2bgz2ZHFAlmBF7o2p7Ckr+clOHzIEg1odWm+gdc+DBtYc80ENQ==}
+    dev: false
 
   /@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
