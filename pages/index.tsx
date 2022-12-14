@@ -6,4 +6,5 @@ export default function Home() {
 		<Navbar/>
 		
 	)
+	return <div>Home</div>
 }
