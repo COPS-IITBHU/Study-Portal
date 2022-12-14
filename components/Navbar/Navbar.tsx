@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Logo from '../../assets/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
-import NavLinks from './NavLinks';
-import Login from './Login';
+
+
 import IonIcon from '@reacticons/ionicons';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,16 +16,28 @@ const Navbar = () => {
             <IonIcon name={`${open ? "close" : "menu"}`}></IonIcon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
+        <ul className="md:flex hidden uppercase items-center gap-8 font-[poppins]">
           <li>
-            <Link href="/" className="py-7 px-3 inline-block">
+            <Link href="/" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
               Home
             </Link>
           </li>
-          <NavLinks />
+          <li>
+            <Link href="/" className="py-7  hover:text-berry active:text-berry px-3 font-medium tracking-wider inline-block">
+              Departments
+            </Link>
+          </li>
+          <li>
+            <Link href="/" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
+              About Us
+            </Link>
+          </li>
+         
         </ul>
         <div className="md:block hidden">
-          <Login />
+        <button className='border  hover:bg-berry hover:text-blush text-white px-6 py-2 rounded-xl'>
+            Login
+        </button>
         </div>
         {/* Mobile nav */}
         <ul
@@ -40,9 +52,21 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <NavLinks />
+          <li >
+            <Link href="/" className="py-7 px-3 inline-block">
+              Departments
+            </Link>
+          </li>
+          <li >
+            <Link href="/" className="py-7 px-3 inline-block">
+              About Us
+            </Link>
+          </li>
+         
           <div className="py-5 pl-4">
-            <Login />
+          <button className='border text-white px-6 py-2 rounded-xl'>
+            Login
+        </button>
           </div>
           </div>
         </ul>
