@@ -34,12 +34,12 @@ const Navbar = () => {
           </li>
          
         </ul>
-        <div className="md:block hidden">
-        <button className='border  hover:bg-berry hover:text-blush text-white px-6 py-2 rounded-xl'>
+       
+        <button className='md:block hidden border  hover:bg-berry hover:text-blush text-white px-6 py-2 rounded-xl'>
             Login
         </button>
-        </div>
-        {/* Mobile nav */}
+      
+       
         <ul
           className={`
         md:hidden  fixed w-full top-0 overflow-y-auto bottom-0 py-24 
@@ -63,11 +63,11 @@ const Navbar = () => {
             </Link>
           </li>
          
-          <div className="py-5 pl-4">
-          <button className='border text-white px-6 py-2 rounded-xl'>
+         
+          <button className=' ml-3 border text-white px-6 py-2 rounded-xl'>
             Login
         </button>
-          </div>
+         
           </div>
         </ul>
       </div>
