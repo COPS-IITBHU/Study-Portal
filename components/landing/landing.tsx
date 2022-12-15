@@ -13,9 +13,8 @@ export default function Landing_Top() {
   };
   return (
     <>
-      <nav />
       <section className="w-full bg-white">
-        <div className=" flex justify-between rounded-l-lg bg-landing">
+        <div className=" max-sm:flex-col mx-auto my-auto flex justify-between rounded-l-l  bg-berry">
           {/* Left Content */}
           <div className="mx-auto">
             <h1
@@ -40,9 +39,9 @@ export default function Landing_Top() {
           </div>
 
           {/* Right Image */}
-          <div className="sm:invisible md:visible lg:visible">
+          <div >
             <Image
-              className="rounded-br-full"
+              className="rounded-br-full max-sm:rounded-none"
               src={hero_content?.hero_image?.path}
               alt={hero_content?.hero_image?.alt}
               width={700}

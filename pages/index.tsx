@@ -26,16 +26,15 @@ export default function Home() {
 		<Landing_Top/>
 		<div className="flex justify-center">
 		<h3>
-			FEATURES
+			<b>FEATURES</b>
 		</h3>
 		</div>
-		<div className="flex justify-between">
+		<div className="max-sm:flex-col md:flex md:justify-between">
 		<Cards props={Card_Data[0]} />
 		<Cards props={Card_Data[1]}/>
 		<Cards props={Card_Data[2]}/>
 		</div>
-		<div>
-		</div>
+		
 		</>
 	)
 
