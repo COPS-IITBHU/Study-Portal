@@ -18,17 +18,17 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[poppins]">
           <li>
-            <Link href="/" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
+            <Link href="/"  color="inherit" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
               Home
             </Link>
           </li>
           <li>
-            <Link href="/" className="py-7  hover:text-berry active:text-berry px-3 font-medium tracking-wider inline-block">
+            <Link href="/departments" className="py-7  hover:text-berry active:text-berry px-3 font-medium tracking-wider inline-block">
               Departments
             </Link>
           </li>
           <li>
-            <Link href="/" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
+            <Link href="/about" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
               About Us
             </Link>
           </li>
