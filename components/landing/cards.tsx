@@ -4,7 +4,7 @@ export default function Cards({ props }) {
 
   return (
 
-    <div className="max-w-md overflow-hidden shadow-lg mx-auto my-auto bg-berry ">
+    <div className="max-w-md overflow-hidden shadow-lg mx-2 my-auto bg-berry ">
 
 
 
