@@ -1,5 +1,6 @@
 import Landing_Top from "../components/landing/landing";
 import Cards from "../components/landing/cards";
+import About from "../components/landing/about";
 export default function Home() {
 	const Card_Data = [
 		{
@@ -29,11 +30,12 @@ export default function Home() {
 			<b>FEATURES</b>
 		</h3>
 		</div>
-		<div className="max-sm:flex-col md:flex md:justify-between">
+		<div className="max-md:flex-col lg:flex lg:justify-between">
 		<Cards props={Card_Data[0]} />
 		<Cards props={Card_Data[1]}/>
 		<Cards props={Card_Data[2]}/>
 		</div>
+		<About/>
 		
 		</>
 	)

@@ -4,7 +4,7 @@ export default function Cards({ props }) {
 
   return (
 
-    <div className="max-w-sm overflow-hidden shadow-lg mx-auto my-auto bg-mauve">
+    <div className="max-w-md overflow-hidden shadow-lg mx-auto my-auto bg-berry ">
 
 
 
@@ -13,7 +13,7 @@ export default function Cards({ props }) {
         src={props.url}
         alt="card_image"
         width={700}
-        height={30}
+        height={280}
         priority
       />
 
@@ -27,7 +27,11 @@ export default function Cards({ props }) {
         </p>
       </div>
       <div className="mx-4 my-4 flex text-blush">
-        <Link href=""><b>Explore More</b></Link>
+        <Link href="">
+          <button className="bg-black hover:bg-blue font-bold py-2 px-4 rounded-full">
+            Explore More...
+          </button>
+        </Link>
       </div>
     </div>
 

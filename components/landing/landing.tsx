@@ -5,7 +5,7 @@ export default function Landing_Top() {
     h1: "IIT BHU",
     h2: "Study Portal",
     description:
-      "A One Stop solution to all your academic ailments",
+      "A One Stop solution to all your academic ailments. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     hero_image: {
       alt: "Hero Image",
       path: "/landing/Untitled.png",
@@ -13,7 +13,7 @@ export default function Landing_Top() {
   };
   return (
     <>
-      <section className="w-full bg-white">
+      <section className="w-full h-full bg-white">
         <div className=" max-sm:flex-col mx-auto my-auto flex justify-between rounded-l-l  bg-berry">
           {/* Left Content */}
           <div className="mx-auto">
@@ -27,7 +27,7 @@ export default function Landing_Top() {
             >
               {hero_content?.h2}
             </h2>
-            <br/>
+            <br />
             <p className="max-w-lg text-xl text-white">
               {hero_content?.description}
             </p>
@@ -51,7 +51,7 @@ export default function Landing_Top() {
           </div>
         </div>
       </section>
-     
+
     </>
   );
 }
