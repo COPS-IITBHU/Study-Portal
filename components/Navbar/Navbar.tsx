@@ -28,7 +28,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/cardl"  color="inherit" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
+            <Link href="/courseinfo"  color="inherit" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
               Course Info
             </Link>
           </li>
