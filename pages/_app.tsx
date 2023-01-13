@@ -7,5 +7,6 @@ export default function MyApp({ Component, pageProps }) {
 			<Component {...pageProps} />
 			{/* <Cardl/> */}
 		</Layout>
+
 	)
 }
