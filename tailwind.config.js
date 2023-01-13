@@ -5,6 +5,7 @@ module.exports = {
 		'./components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
+		extend: {},
 		colors: {
 			berry: '#A45693',
 			blush: '#F1E9EE',

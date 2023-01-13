@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/landing_top.js", "pages/_app.js", "pages/_app.js", "pages/index.js", "components/landing_top.js", "components/landing_top.js", "components/landing_cards.js", "components/landing_cards.js"  ],
   "exclude": [
     "node_modules"
   ]
