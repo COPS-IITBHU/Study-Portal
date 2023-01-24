@@ -4,7 +4,7 @@ import { MdDownload } from "react-icons/md";
 
 const Content = () => {
   return (
-    <div className='w-3/4 my-3 bg-mauve flex justify-between m-auto hover:bg-blush '>
+    <a className='w-3/4 my-3 bg-mauve flex justify-between m-auto hover:bg-blush ' href='https://www.google.co.in/' target="_blank" rel="noopener noreferrer">
       <div className='flex align-middle justify-center'>
         <span className='m-2 p-2'>
           <AiFillFilePdf size={50} />
@@ -14,7 +14,7 @@ const Content = () => {
       <div className='my-auto p-2 hover:cursor-pointer'>
         <MdDownload size={50}/>
       </div>
-    </div>
+    </a>
   )
 }
 
