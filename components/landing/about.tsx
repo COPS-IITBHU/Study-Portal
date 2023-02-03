@@ -8,10 +8,10 @@ export default function About() {
         }
     }
     return (
-        <div className='bg-mauve lg:flex  mt-2 max-md:flex-col'>
+        <div className='bg-mauve lg:flex  max-md:flex-col'>
             <div className='basis-1/2 shrink-0 grow-0 h-full ' >
                 <Image
-                    className="lg:rounded-br-full max-md:rounded-none"
+                    className="rounded-tr-full rounded-br-full max-md:rounded-none"
                     src={about_content?.about_image?.path}
                     alt={about_content?.about_image?.alt}
                     width={750}
