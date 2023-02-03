@@ -8,7 +8,7 @@ import IonIcon from '@reacticons/ionicons';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="">
+    <nav className="sticky top-0 bg-white z-10">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-1 md:w-auto w-full flex justify-between">
           <Image src={Logo} alt="logo" className="md:cursor-pointer h-15 w-14" />
@@ -35,7 +35,7 @@ const Navbar = () => {
          
         </ul>
        
-        <button className='md:block hidden border  hover:bg-berry hover:text-blush text-white px-6 py-2 rounded-xl'>
+        <button className='md:block hidden border  hover:bg-berry hover:text-blush px-6 py-2 rounded-xl'>
             Login
         </button>
       
