@@ -1,4 +1,3 @@
-import Image from "next/image";
 import animation from "./105040-course.json";
 import Lottie from "lottie-react";
 

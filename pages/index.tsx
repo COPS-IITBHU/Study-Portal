@@ -1,7 +1,5 @@
 import Landing_Top from "../components/landing/landing";
 import Cards from "../components/landing/cards";
-import About from "../components/landing/about";
-import animation1 from "../components/landing/department_lottie.json"
 export default function Home() {
 	const Card_Data = [
 		{

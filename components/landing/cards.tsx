@@ -1,5 +1,4 @@
 import Lottie from "lottie-react";
-import Image from "next/image";
 import Link from "next/link";
 import animation1 from "./77366-engineering.json";
 import animation2 from "./72264-certificate.json";
