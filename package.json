@@ -11,8 +11,9 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "@material-tailwind/react": "^1.2.5",
     "@reacticons/ionicons": "^6.0.4",
-    "next": "13.0.6",
+    "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
@@ -22,7 +23,7 @@
     "@types/react": "18.0.26",
     "autoprefixer": "^10.4.13",
     "eslint": "8.25.0",
-    "eslint-config-next": "13.0.6",
+    "eslint-config-next": "13.1.2",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",

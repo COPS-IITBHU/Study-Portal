@@ -28,6 +28,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link href="/courseinfo"  color="inherit" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
+              Course Info
+            </Link>
+          </li>
+          <li>
             <Link href="/about" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
               About Us
             </Link>
